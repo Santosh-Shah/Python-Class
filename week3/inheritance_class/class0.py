@@ -17,10 +17,10 @@ class Animal:
   def speak(self):
     print("It is from Animal Class")
 
-class Cat():
+class Cat(Animal):
   def mew(self):
     print("It is from Cat Class")
 
-cat1 = Cat(Animal)
+cat1 = Cat()
 cat1.mew()
 cat1.speak()
